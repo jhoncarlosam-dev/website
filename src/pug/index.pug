@@ -36,57 +36,48 @@ html(lang='en')
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
                         li.nav-item
-                            a.nav-link(href='#services') Services
+                            a.nav-link(href='#services') Servicios
                         li.nav-item
-                            a.nav-link(href='#portfolio') Portfolio
+                            a.nav-link(href='#portfolio') Portafolio
                         li.nav-item
-                            a.nav-link(href='#about') About
+                            a.nav-link(href='#about') Nosotros
                         li.nav-item
-                            a.nav-link(href='#team') Team
+                            a.nav-link(href='#team') Equipo
                         li.nav-item
-                            a.nav-link(href='#contact') Contact
+                            a.nav-link(href='#contact') Contacto
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Welcome To Our Studio!
-                .masthead-heading.text-uppercase It's Nice To Meet You
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+                .masthead-subheading AdvanCore
+                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Negociar
 
         // Services
         section#services.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Servicios
+                    h3.section-subheading.text-muted Un pilar para el avance científico.
                 .row.text-center
-                    .col-md-4
+                    .col-md-6
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-                        h4.my-3 Desarrollo de apps
+                        h4.my-3 Desarrollo de Apps
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    .col-md-4
+                            | Ninguna de nuestras herramientas ha sido creada con el único fin de hacer algo, todas están orientadas a la solución de un determinado o determinados problemas de manera efectiva, ya sea InExtremis o JobSafe.
+                    .col-md-6
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                        h4.my-3 Desarrollo de juegos
+                        h4.my-3 Desarrollo de VideoJuegos
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    .col-md-4
-                        span.fa-stack.fa-4x
-                            i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-lock.fa-stack-1x.fa-inverse
-                        h4.my-3 Administración de negocios
-                        p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | Mas que mostrarte de lo que somos capaces, queremos hacerte sentir lo que nuestros videojuegos favoritos lo hicieron con nosotros alguna vez. Desde miedo, angustia, admiración, tristeza, etc, que no pase desapercibida la experiencia AdvanCore.
 
         // Portfolio Grid
         section#portfolio.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Portafolio
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 1
@@ -97,7 +88,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='https://images.unsplash.com/photo-1593118247619-e2d6f056869e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Dark Souls
+                                .portfolio-caption-heading Thanatos
                                 .portfolio-caption-subheading.text-muted Games
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
@@ -108,7 +99,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading BodyTech
+                                .portfolio-caption-heading InExtremis
                                 .portfolio-caption-subheading.text-muted Gym
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
@@ -119,47 +110,14 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
-                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
-                        // Portfolio item 4
-                        .portfolio-item
-                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
-                            .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
-                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
-                        // Portfolio item 5
-                        .portfolio-item
-                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
-                            .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
-                    .col-lg-4.col-sm-6
-                        // Portfolio item 6
-                        .portfolio-item
-                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
-                            .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
-
+                                .portfolio-caption-heading SafeJob
+                                .portfolio-caption-subheading.text-muted Bussines
+                    
         // About
         section#about.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase About
+                    h2.section-heading.text-uppercase Nosotros
                     h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
                 ul.timeline
                     li
@@ -167,61 +125,41 @@ html(lang='en')
                             img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 2009-2011
-                                h4.subheading Our Humble Beginnings
+                                h4 2022
+                                h4.subheading El Comienzo
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    | Ningún comienzo es meteórico cual cohete, y nuestra historia no es la excepción, todo comenzó por las ganas y el deseo de contar buenas historias. Nuestra intención desde un principio ha sido la magia de crear belleza para el mundo, apreciable e interactuable, es por eso que optamos por los videojuegos. Reunimos el equipo, inexpertos en nuestros campos, con la llama de quien desea en el corazón edificar sus ideas.Cada uno del equipo se esforzó por adquirir sus propias habilidades, siempre dialogando entre los implicados. Porque como la legión que somos no deseábamos dispersarnos y perder nuestro norte. Eramos conscientes de que el camino sería duro, pero nada nos impidió seguir adelante.
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
                                 h4 March 2011
-                                h4.subheading An Agency is Born
+                                h4.subheading InExtremis y primeros vistazos de Thanatos
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li
-                        .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='...')
-                        .timeline-panel
-                            .timeline-heading
-                                h4 December 2015
-                                h4.subheading Transition to Full Service
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li.timeline-inverted
-                        .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='...')
-                        .timeline-panel
-                            .timeline-heading
-                                h4 July 2020
-                                h4.subheading Phase Two Expansion
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    | Si bien anhelábamos mostrar nuestras historias al mundo, no era la única rama en la cual nos queríamos decantar, desde un inicio el objetivo ha sido crear ciencia de la más alta calidad, y eso era algo que no descartaríamos en nuestro proceso por muy temprano que fuese InExtremis surgió de la observación, de la experiencia personal y del deseo de solucionar lo que estaba mal. No planeábamos que fuese sencillo, todo lo contrario, estábamos convencidos de su dificultad y por ende lo queríamos realizar. Al mismo tiempo que trabajamos duro y con disciplina para crear la primera parte de nuestro primero videojuego, un proyecto que cada vez se hacía más ambicioso, que estaba pareciendo un juego de gran envergadura que el proyecto de un videojuego indie.
                     li.timeline-inverted
                         .timeline-image
                             h4
-                                | Be Part
+                                | ¡Se Parte
                                 br
-                                | Of Our
+                                | De Nuestra
                                 br
-                                | Story!
+                                | Historia!
 
         // Team
         section#team.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Our Amazing Team
+                    h2.section-heading.text-uppercase Nuestro increíble equipo
                     h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
                 .row
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='https://scontent.fbog17-2.fna.fbcdn.net/v/t39.30808-6/315019908_109592198631856_5884267608688461482_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH6cO_QTwRCrc3Pd3CEFHZYrsjL9W7BYb2uyMv1bsFhvQqTPdQEgPt1pFXAAExIj3fQC3oqf7TuQzMZ719V-RHe&_nc_ohc=NXtMdKwXsJYAX_U_BDW&_nc_zt=23&_nc_ht=scontent.fbog17-2.fna&oh=00_AfCVF83suiC0WUfTjCYwHFlJpuNVW5Ka-T0BrVrukrNZgA&oe=6458AF8D', alt='...')
-                            h4 Parveen Anand
+                            img.mx-auto.rounded-circle(src='https://scontent.fbog20-2.fna.fbcdn.net/v/t39.30808-6/315019908_109592198631856_5884267608688461482_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH6cO_QTwRCrc3Pd3CEFHZYrsjL9W7BYb2uyMv1bsFhvQqTPdQEgPt1pFXAAExIj3fQC3oqf7TuQzMZ719V-RHe&_nc_ohc=ZD7Av_uqIB4AX_031Wi&_nc_zt=23&_nc_ht=scontent.fbog20-2.fna&oh=00_AfBlSwWyhPY-sFNatWS1JXaYrcr1Q9MPWEYSZCltijWUsw&oe=6460988D', alt='...')
+                            h4 Jhon Acevedo
                             p.text-muted Lead Developer
                             a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Twitter Profile')
                                 i.fab.fa-twitter
@@ -231,9 +169,9 @@ html(lang='en')
                                 i.fab.fa-linkedin-in
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
-                            h4 Diana Petersen
-                            p.text-muted Lead Marketer
+                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
+                            h4 David Ovallos
+                            p.text-muted CEO
                             a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Twitter Profile')
                                 i.fab.fa-twitter
                             a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Facebook Profile')
@@ -242,8 +180,8 @@ html(lang='en')
                                 i.fab.fa-linkedin-in
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
-                            h4 Larry Parker
+                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
+                            h4 Chica sexy
                             p.text-muted Lead Designer
                             a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Larry Parker Twitter Profile')
                                 i.fab.fa-twitter
@@ -277,7 +215,7 @@ html(lang='en')
         section#contact.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Contact Us
+                    h2.section-heading.text-uppercase Contáctanos
                     h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
 
                 // * * * * * * * * * * * * * * *
@@ -360,14 +298,14 @@ html(lang='en')
 
                     // Submit Button
                     .text-center
-                        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
+                        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Enviar mensaje
 
         // Footer
         footer.footer.py-4
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-start
-                        | Copyright &copy; Your Website 2023
+                        | Copyright &copy; AdvanCore Website 2023
                     .col-lg-4.my-3.my-lg-0
                         a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
                             i.fab.fa-twitter
